@@ -26,6 +26,7 @@ body {
  }
 
  .logo-content-container{
+    width: 400px;
     display: flex;
     border: 1px solid pink;
     width: 70%;
@@ -46,9 +47,33 @@ body {
     padding: 40px;
     margin: 0px auto;
     color: var(--accent-primary);
-    display: flex;
+    font-size: medium;
+    /* display: flex;
     justify-content: space-between;
-    text-align: justify;
-    background-color:  var(--background-primary);
+    text-align: justify; */
+    background: linear-gradient(var(--background-secondary), var(--background-primary))
  }
  
+ .intro-content-aftername{
+    color: var(--accent-secondary);
+ }
+
+
+ .intro-content p{
+    color: var(--text-primary);
+    /* border: 1px solid green; */
+    padding: 4px;
+    margin: 5px;
+    border-bottom: 3px solid var(--background-secondary);
+    background: var(--background-primary);
+ }
+
+ .intro-other-section{
+    margin: 20px;
+    padding: 5px;
+    font-size: medium;
+    color: var(--accent-primary);
+    align-items: center;
+    width: 400px;
+    text-align: justify;
+ }
