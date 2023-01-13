@@ -19,7 +19,7 @@ body {
 }
 
 .card{
-    width: 40vh;
+    width: 21vw;
     background-color: #e9f3f5;
     text-align: center;
     padding-bottom: 2vh;
@@ -28,15 +28,15 @@ body {
 
 .card-header{
     background-color: rgb(195, 252, 252);
-    width: 40vh;
-    height: 14vh;
+    width: 21vw;
+    height: 15vh;
 }
 
 .card-img{
     display: block;
     background-color: rgb(193, 189, 189);
-    width: 20vh;
-    height: 20vh;
+    width: 12vw;
+    height: 24vh;
     margin: 0 auto;
     margin-top: -10vh;
     margin-bottom: 5vh;
@@ -46,7 +46,7 @@ body {
 }
 
 .card-content{
-    padding: 4vh;
+    padding: 3vh 2vw;
     text-align: left;
 }
 
