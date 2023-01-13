@@ -17,3 +17,39 @@ body {
     height: 100vh;
     background-color: var(--background-primary);
 }
+
+.card{
+    width: 40vh;
+    background-color: #e9f3f5;
+    text-align: center;
+    padding-bottom: 2vh;
+    
+}
+
+.card-header{
+    background-color: rgb(195, 252, 252);
+    width: 40vh;
+    height: 14vh;
+}
+
+.card-img{
+    display: block;
+    background-color: rgb(193, 189, 189);
+    width: 20vh;
+    height: 20vh;
+    margin: 0 auto;
+    margin-top: -10vh;
+    margin-bottom: 5vh;
+    border-radius: 50vh;
+    border: 1vh solid white;
+
+}
+
+.card-content{
+    padding: 4vh;
+    text-align: left;
+}
+
+.card-link{
+    text-decoration: none;
+}
