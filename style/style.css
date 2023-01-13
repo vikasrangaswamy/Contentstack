@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background-primary: #ffffff;
+    --background-secondary: #e9f3f5;
+    --text-primary: #28324a;
+    --text-invert: #ffffff;
+    --accent-primary: #f46524;
+    --accent-secondary: #28324a;
+}
+
 body {
-    background-color: #ffffff;
+    height: 100vh;
+    background-color: var(--background-primary);
 }
