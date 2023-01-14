@@ -20,7 +20,7 @@ body {
 
 
 .intro{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 400px;
     display: flex;
  }
@@ -28,7 +28,7 @@ body {
  .logo-content-container{
     width: 400px;
     display: flex;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     width: 70%;
     display: flex;
     background: linear-gradient(var(--background-secondary), var(--background-primary))
@@ -42,7 +42,7 @@ body {
     background-size: cover;
  }
  .intro-content{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 400px;
     padding: 40px;
     margin: 0px auto;
@@ -69,11 +69,48 @@ body {
  }
 
  .intro-other-section{
-    margin: 20px;
+    /* margin: 20px; */
     padding: 5px;
     font-size: medium;
     color: var(--accent-primary);
     align-items: center;
     width: 400px;
     text-align: justify;
+    background: linear-gradient(var(--text-invert),var(--background-secondary));
  }
+
+ .intro-internship-content p{
+   color: var(--text-primary);
+ }
+ .recuritment{
+   /* border : 1px solid green; */
+   height: 303px;
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+ }
+ .on-campus-re{
+   display: flex;
+ }
+ .off-campus-re{
+   display: flex;
+ }
+ #on-campus-re-box{
+   /* display: block; */
+   margin: 20px;
+   height: 20px;
+   width: 20px;
+   background-color: var(--accent-primary);
+   border: 1px solid black;
+   border-radius: 50%;
+}
+
+#off-campus-re-box{
+   /* display: block; */
+   margin: 20px;
+   height: 20px;
+   width: 20px;
+   background-color: var(--accent-primary);
+   border: 1px solid black;
+   border-radius: 50%;
+}
