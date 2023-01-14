@@ -47,7 +47,7 @@ body {
     padding: 40px;
     margin: 0px auto;
     color: var(--accent-primary);
-    font-size: medium;
+    font-size: 18px;
     /* display: flex;
     justify-content: space-between;
     text-align: justify; */
@@ -64,8 +64,9 @@ body {
     /* border: 1px solid green; */
     padding: 4px;
     margin: 5px;
+    font-size: 18px;
     border-bottom: 3px solid var(--background-secondary);
-    background: var(--background-primary);
+    background: linear-gradient(var(--background-primary), var(--background-secondary));
  }
 
  .intro-other-section{
@@ -81,6 +82,8 @@ body {
 
  .intro-internship-content p{
    color: var(--text-primary);
+   font-size: 24px;
+   margin: 18px;
  }
  .recuritment{
    /* border : 1px solid green; */
