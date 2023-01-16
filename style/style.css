@@ -29,7 +29,8 @@ body {
 .contact{
    background-color: var(--background-secondary);
    display: grid;
-   grid-template-columns: 33% 33% 33%;
+   padding: 2% 4%;
+   grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
 .contact__logo-address{
@@ -56,4 +57,20 @@ body {
 .contact__sitemap-menu{
    display: flex;
    flex-direction: column;
+}
+.contact__connect-text{
+   text-align: center;
+}
+.contact__email{
+   display: flex;
+}
+.contact__socials{
+   display: flex;
+   justify-content: space-around;
+}
+.contact__socials-icon{
+   width: 60px;
+   height: 60px;
+   border-radius: 100%;
+   background-color: var(--accent-primary);
 }
