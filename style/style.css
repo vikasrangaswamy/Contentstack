@@ -97,7 +97,7 @@ body {
  .banner-container .banner-subintro {
    width: 60%;
    color: var(--text-primary);
-   font-size: 1.3rem;
+   font-size: 1.5rem;
    position: absolute;
    bottom: 0;
    left: 0;
@@ -107,7 +107,7 @@ body {
 
  .banner-container .banner-subintro span {
    font-weight: bold;
-   font-size: 1.3rem;
+   font-size: 1.6rem;
    color: #f46524;
  }
 /* banner upto here */
