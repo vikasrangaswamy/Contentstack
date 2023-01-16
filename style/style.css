@@ -157,6 +157,7 @@ header {
     display: block;
     text-align: center;
     font-family: "Roboto", sans-serif;
+    color: var(--text-primary);
 }
 
 #story__nav {
@@ -191,7 +192,7 @@ header {
 
 .hackathon__image {
     border-radius: 10px;
-    margin: 0.8rem auto 1.5rem auto;
+    margin: 1.5rem auto 1.5rem auto;
     align-items: center;
     display: flex;
     width: 50vw;
