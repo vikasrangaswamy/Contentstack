@@ -133,26 +133,48 @@ body {
  }
 /* banner upto here */
 
-
-header  {
+/* Header */
+.main-header  {
+    width: 100%;
+    background-color: var(--background-primary);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 1px 2px -1px rgba(0,0,0,.3);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
-    width: 100%;
-    padding: 10px 20px;
-
-}
-.menu   {
-    font-size: 25px;
+    padding: 10px 30px;
 }
 
-.menu a {
-    margin-left: 20px;
+.main-header__nav {
+    /* align logo text with nav links
+    with just flex, it's slightly off */
+    margin-top: 8px;
 }
 
-.logo-img {
-  height: 10vh;
+@media screen and (max-width: 768px){
+    .main-header {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+.main-header__logo {
+    height: 65px;
+    width: auto;
+}
+
+.main-header__links {
+    font-size: 1.15rem;
+    list-style: none;
+    display: flex;
+    column-gap: 15px;
+}
+
+.main-header__link {
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* footer-styling */
