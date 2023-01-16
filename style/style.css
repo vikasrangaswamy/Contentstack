@@ -17,7 +17,7 @@ body {
     height: 100vh;
     background-color: var(--background-primary);
 }
-
+/* footer-styling */
 .red-border{
    border: 0px solid red;
 }
@@ -74,3 +74,4 @@ body {
    border-radius: 100%;
    background-color: var(--accent-primary);
 }
+/* footer-styling */
