@@ -17,3 +17,31 @@ body {
     height: 100vh;
     background-color: var(--background-primary);
 }
+
+.red-border{
+   border: 1px solid red;
+}
+
+.blue-border{
+   border: 1px solid blue;
+}
+
+.contact{
+   background-color: var(--background-secondary);
+   display: grid;
+}
+
+.contact__logo-address{
+   grid-row: 1;
+   grid-column: 1;
+}
+
+.contact__sitemap{
+   grid-row: 1;
+   grid-column: 2;
+}
+
+.contact__connect{
+   grid-row: 1;
+   grid-column: 3;
+}
