@@ -19,6 +19,41 @@ body {
     background-color: var(--background-primary);
 }
 
+.card{
+    width: 250px;
+    background-color: #e9f3f5;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.card-header{
+    background-color: rgb(195, 252, 252);
+    width: 250px;
+    height: 100px;
+}
+
+.card-img{
+    display: block;
+    background-color: rgb(193, 189, 189);
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: -80px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 6px solid white;
+
+}
+
+.card-content{
+    padding: 20px;
+    text-align: left;
+}
+
+.card-link{
+    text-decoration: none;
+}
 /* banner starts here */
 .banner-container {
    width: 100vw;
