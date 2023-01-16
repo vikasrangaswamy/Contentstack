@@ -19,7 +19,7 @@ body {
     background-color: var(--background-primary);
 }
 
-/* Cards start */
+/* Cards starts here */
 .team{
     text-align: center;
 }
@@ -36,6 +36,7 @@ body {
     text-align: center;
     padding-bottom: 20px;
     border-radius: 20px;
+
     
 }
 
@@ -74,6 +75,7 @@ body {
     color: rgb(106, 12, 247);
     font-size: 1.7rem;
 }
+/* cards upto here */
 
 /* banner starts here */
 .banner-container {
