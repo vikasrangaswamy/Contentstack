@@ -29,6 +29,7 @@ body {
 .contact{
    background-color: var(--background-secondary);
    display: grid;
+   grid-template-columns: 33% 33% 33%;
 }
 
 .contact__logo-address{
@@ -44,4 +45,15 @@ body {
 .contact__connect{
    grid-row: 1;
    grid-column: 3;
+}
+
+.contact__logo{
+   width: min(100%,300px);
+}
+.contact__sitemap{
+   margin: 0 auto;
+}
+.contact__sitemap-menu{
+   display: flex;
+   flex-direction: column;
 }
