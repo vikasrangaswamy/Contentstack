@@ -77,16 +77,25 @@ body {
 
 /* banner starts here */
 .banner-container {
-   width: 100vw;
-   height: 100vh;
+   max-width: 100vw;
+   height: 90vh;
    background:url(../assets/banner.png);
    background-repeat: no-repeat;
    background-size: cover;
    opacity: 1;
    font-family: 'Roboto', sans-serif;
    text-align: justify;
-   padding: 8% 11%;
+   position: relative;
  }
+
+ .banner-intro-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 150px;
+  margin-top: 100px;
+ }
+
 .banner-logo {
    width: 300px;
    height: 70px;
@@ -95,27 +104,31 @@ body {
    background-repeat: no-repeat;
 }
  .banner-container .banner-intro {
-   font-size: 1.5em;
+   font-size: 1.5rem;
    width: 50%;
    color: white;
  }
 
  .banner-container .banner-intro span {
    font-weight: bold;
-   font-size: 1.7em;
+   font-size: 1.7rem;
    color: #f46524;
  }
 
  .banner-container .banner-subintro {
    width: 60%;
    color: var(--text-primary);
-   font-size: 1.3em;
-   margin: 20% 0;
+   font-size: 1.5rem;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   margin-left: 150px;
+   margin-bottom:20px ;
  }
 
  .banner-container .banner-subintro span {
    font-weight: bold;
-   font-size: 1.3em;
+   font-size: 1.6rem;
    color: #f46524;
  }
 /* banner upto here */
@@ -125,18 +138,49 @@ header  {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: auto;
+    height: 10vh;
     width: 100%;
-    border: solid #f46524 10px;
-    padding: 5px;
+    padding: 10px 20px;
 
 }
 .menu   {
     font-size: 25px;
 }
 
-a   {
-    margin: 5px;
+.menu a {
+    margin-left: 20px;
+}
+
+.logo-img {
+  height: 10vh;
+}
+
+/* footer-styling */
+.red-border{
+   border: 0px solid red;
+}
+
+.blue-border{
+   border: 0px solid blue;
+}
+
+.contact{
+   background-color: var(--background-secondary);
+   display: grid;
+   padding: 2% 4%;
+   grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.contact__logo-address{
+   grid-row: 1;
+   grid-column: 1;
+}
+
+.contact__sitemap{
+   grid-row: 1;
+   grid-column: 2;
+   margin: 0 auto;
+   text-align: center;
 }
 
 @media screen and (max-width:957px){
@@ -150,3 +194,39 @@ a   {
     
 }
 
+.contact__connect{
+   grid-row: 1;
+   grid-column: 3;
+}
+
+.contact__logo{
+   width: min(100%,300px);
+}
+.contact__sitemap-menu{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.contact__connect-text{
+   text-align: center;
+}
+.contact__email{
+   display: flex;
+   justify-content: center;
+}
+.contact__email-logo{
+   width: 20px;
+   height: 20px;
+}
+.contact__socials{
+   display: flex;
+   justify-content: space-around;
+}
+.contact__socials-icon{
+   width: 60px;
+   height: 60px;
+   border-radius: 100%;
+   background-color: var(--accent-primary);
+}
+/* footer-styling */
