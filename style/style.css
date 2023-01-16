@@ -232,8 +232,13 @@ header  {
 .contact__email-logo{
    width: 20px;
    height: 20px;
+   margin: 0 1%;
+}
+.contact__emai-address{
+  margin: 0 1%;
 }
 .contact__socials{
+   margin: 2% 0;
    display: flex;
    justify-content: space-around;
 }
