@@ -238,14 +238,24 @@ header  {
   margin: 0 1%;
 }
 .contact__socials{
-   margin: 2% 0;
+   margin: 3% 0 0 0;
    display: flex;
    justify-content: space-around;
 }
 .contact__socials-icon{
-   width: 60px;
-   height: 60px;
+   width: 55px;
+   height: 55px;
    border-radius: 100%;
-   background-color: var(--accent-primary);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--background-primary);
+}
+
+.contact__socials-icon:hover{
+  width: 57px;
+  height: 57px;
+  border: 1px solid var(--accent-primary);
+  box-shadow: 0 0 8px 2px var(--accent-primary);
 }
 /* footer-styling */
