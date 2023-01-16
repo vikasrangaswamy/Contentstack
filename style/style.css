@@ -163,23 +163,32 @@ header  {
 .blue-border{
    border: 0px solid blue;
 }
-
+.footer{
+  margin-top: 2%;
+}
 .contact{
    background-color: var(--background-secondary);
    display: grid;
    padding: 2% 4%;
    grid-template-columns: 33.33% 33.33% 33.33%;
+   font-family: 'Roboto', sans-serif;
 }
-
+.contact--heading-text{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 3% auto 4% auto ;
+}
 .contact__logo-address{
    grid-row: 1;
    grid-column: 1;
+}
+.contact__address-title{
+  font-size: 1.5rem;
 }
 
 .contact__sitemap{
    grid-row: 1;
    grid-column: 2;
-   margin: 0 auto;
    text-align: center;
 }
 
@@ -207,9 +216,14 @@ header  {
    flex-direction: column;
    align-items: center;
 }
-
-.contact__connect-text{
-   text-align: center;
+.contact__menu-item{
+  text-decoration: none;
+  color: var(--text-primary);
+  margin: 1% auto;
+}
+.contact__menu-item:hover{
+  text-decoration: underline;
+  font-size: 1.2rem;
 }
 .contact__email{
    display: flex;
