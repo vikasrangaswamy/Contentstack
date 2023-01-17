@@ -187,6 +187,8 @@ body {
 
 /* story-styling */
 
+/* off-campus */
+
 .story {
     display: block;
     text-align: center;
@@ -269,6 +271,26 @@ body {
     display: flex;
     width: 50vw;
 }
+
+/* on-campus */
+
+/* on-campus */
+
+.on-campus__story__header {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.on-campus__story__details {
+    text-align: start;
+    margin: 1rem 7vw;
+}
+
+.on-campus__intro {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
 
 /* story-styling */
 
