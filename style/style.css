@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 3%;
+    margin: 3%;
 }
 
 .card {
@@ -71,6 +71,7 @@ body {
     color: rgb(106, 12, 247);
     font-size: 1.7rem;
 }
+
 /* cards upto here */
 
 /* banner starts here */
