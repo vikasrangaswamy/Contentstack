@@ -156,13 +156,6 @@ header  {
 }
 
 /* footer-styling */
-.red-border{
-   border: 0px solid red;
-}
-
-.blue-border{
-   border: 0px solid blue;
-}
 .footer{
   margin-top: 2%;
 }
