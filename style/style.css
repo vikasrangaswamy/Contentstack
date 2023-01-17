@@ -132,7 +132,7 @@ body {
     font-size: 1.5rem;
     color: #f46524;
   }
- /* banner upto here */
+
 /* banner upto here */
 
 /* Header */
@@ -146,7 +146,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 10px 5vw;
 }
 
 .main-header__nav {
@@ -158,24 +158,17 @@ body {
 @media screen and (max-width: 768px) {
     .main-header {
         flex-direction: column;
-        row-gap: 10px;
     }
 }
 
-/* banner upto here */
-
 .main-header__logo {
     height: 7vh;
+    min-height: 45px;
     width: auto;
-}
-
-.menu {
-    font-size: 25px;
-    width: auto;
+    max-width: 100%;
 }
 
 .main-header__links {
-    font-size: 1.15rem;
     list-style: none;
     display: flex;
     column-gap: 15px;
@@ -184,6 +177,12 @@ body {
 .main-header__link {
     text-decoration: none;
     text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: var(--accent-primary);
+}
+
+.main-header__link:hover {
+  color: #ba3b00;
 }
 
 /* story-styling */
