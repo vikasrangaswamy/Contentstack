@@ -294,7 +294,7 @@ body {
     flex-wrap: wrap;
   }
   
-  .column {
+  .on-campus__card__column {
     flex-basis: 25%;
   }
   
