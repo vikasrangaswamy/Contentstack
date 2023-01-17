@@ -292,6 +292,11 @@ body {
 .on-campus__card__content {
     display: flex;
     flex-wrap: wrap;
+    font-size: 1.2rem;
+  }
+  .on-campus__card__content p{
+    font-weight: bolder;
+    margin: 1rem 0;
   }
   
   .on-campus__card__column {
