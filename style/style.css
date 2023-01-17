@@ -258,4 +258,36 @@ header  {
   border: 1px solid var(--accent-primary);
   box-shadow: 0 0 8px 2px var(--accent-primary);
 }
+
+@media screen and (max-width:957px){
+  .contact{
+    grid-template-columns: auto;
+  }
+  .contact__logo-address{
+    padding-bottom: 2%;
+    border-bottom: 2px solid var(--background-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact__sitemap{
+    border-bottom: 2px solid var(--background-primary);
+  }
+  .contact__address{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact__sitemap{
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .contact__connect{
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+}
 /* footer-styling */
