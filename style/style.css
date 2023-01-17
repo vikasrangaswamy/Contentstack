@@ -23,6 +23,7 @@ body {
 .team {
     text-align: center;
 }
+
 .cards {
     display: flex;
     justify-content: space-around;
@@ -160,8 +161,16 @@ body {
     }
 }
 
+/* banner upto here */
+
 .main-header__logo {
     height: 10vh;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.menu {
+    font-size: 25px;
     width: auto;
 }
 
@@ -201,6 +210,7 @@ body {
 #story__nav {
     font-size: 3.5rem;
     font-weight: bolder;
+    margin-top: 1.625rem;
 }
 
 .story__details {
@@ -219,13 +229,19 @@ body {
 }
 
 .one__line__statement {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
+    margin-bottom: 1rem;
 }
 
 .story__elements {
     margin-top: 0.5rem;
     list-style-position: inside;
+}
+
+.story__elements li {
+    margin-bottom: 0.3rem;
+    font-size: 1.125rem;
 }
 
 .hackathon__image {
@@ -339,6 +355,53 @@ body {
     .contact{
       grid-template-columns: auto;
     }
+
+    .card {
+        margin-top: 30px;
+    }
+}
+
+.contact__connect {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.contact__logo {
+    width: min(100%, 300px);
+}
+
+.contact__sitemap-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__connect-text {
+    text-align: center;
+}
+
+.contact__email {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__email-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.contact__socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact__socials-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: var(--accent-primary);
+}
+
     .contact__logo-address{
       padding-bottom: 2%;
       border-bottom: 2px solid var(--background-primary);
