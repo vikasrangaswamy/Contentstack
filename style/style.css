@@ -23,6 +23,7 @@ body {
 .team {
     text-align: center;
 }
+
 .cards {
     display: flex;
     justify-content: space-around;
@@ -71,6 +72,7 @@ body {
     color: rgb(106, 12, 247);
     font-size: 1.7rem;
 }
+
 /* cards upto here */
 
 /* banner starts here */
@@ -101,6 +103,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .banner-container .banner-intro {
     font-size: 1.5rem;
     width: 50%;
@@ -129,6 +132,7 @@ body {
     font-size: 1.6rem;
     color: #f46524;
 }
+
 /* banner upto here */
 
 header {
@@ -139,6 +143,7 @@ header {
     width: 100%;
     padding: 10px 20px;
 }
+
 .menu {
     font-size: 25px;
 }
@@ -163,6 +168,7 @@ header {
 #story__nav {
     font-size: 3.5rem;
     font-weight: bolder;
+    margin-top: 1.625rem;
 }
 
 .story__details {
@@ -181,13 +187,19 @@ header {
 }
 
 .one__line__statement {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
+    margin-bottom: 1rem;
 }
 
 .story__elements {
     margin-top: 0.5rem;
     list-style-position: inside;
+}
+
+.story__elements li {
+    margin-bottom: 0.3rem;
+    font-size: 1.125rem;
 }
 
 .hackathon__image {
@@ -233,6 +245,7 @@ header {
         flex-direction: column;
         align-items: center;
     }
+
     .card {
         margin-top: 30px;
     }
@@ -246,6 +259,7 @@ header {
 .contact__logo {
     width: min(100%, 300px);
 }
+
 .contact__sitemap-menu {
     display: flex;
     flex-direction: column;
@@ -255,22 +269,27 @@ header {
 .contact__connect-text {
     text-align: center;
 }
+
 .contact__email {
     display: flex;
     justify-content: center;
 }
+
 .contact__email-logo {
     width: 20px;
     height: 20px;
 }
+
 .contact__socials {
     display: flex;
     justify-content: space-around;
 }
+
 .contact__socials-icon {
     width: 60px;
     height: 60px;
     border-radius: 100%;
     background-color: var(--accent-primary);
 }
+
 /* footer-styling */
