@@ -291,8 +291,11 @@ body {
 
 .on-campus__card__content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     font-size: 1.2rem;
+    justify-content: space-around;
+    
+    
   }
   .on-campus__card__content p{
     font-weight: bolder;
@@ -300,9 +303,18 @@ body {
   }
   
   .on-campus__card__column {
-    flex-basis: 25%;
+    flex-basis: 23%;
+    /* border: #28324a solid; */
+    /* margin-left: 2%; */
+
   }
   
+  @media only screen and (max-width: 760px) {
+    .on-campus__card__column {
+        flex-basis: 50%;
+        margin-left: 2%;
+      }
+  }
 
 /* story-styling */
 
