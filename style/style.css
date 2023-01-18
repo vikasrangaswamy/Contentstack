@@ -16,6 +16,8 @@
     --heading-1:3rem;
     --heading-2:1.5rem;
     --paragraph:1.2rem;
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
 }
 
 body {
