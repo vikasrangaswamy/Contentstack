@@ -33,10 +33,12 @@ body {
 
 .card {
     width: 250px;
+    height: 430px;
     background-color: #f3f8f9;
     text-align: center;
     padding-bottom: 20px;
     border-radius: 20px;
+    margin:1%;
 }
 
 .card-header {
@@ -58,8 +60,15 @@ body {
     border: 6px solid white;
 }
 
+.card-img img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
 .card-content {
     padding: 20px;
+    height: 150px;
     text-align: left;
 }
 
@@ -68,9 +77,36 @@ body {
 }
 
 .card-icons {
-    margin: 10px;
-    color: rgb(106, 12, 247);
+    margin-top: 10px;
     font-size: 1.7rem;
+}
+
+.card-icons i{
+    color: rgb(106, 12, 247);
+}
+
+@media screen and (max-width:957px) {
+    .cards {
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    .card {
+        margin: 30px;
+    }
+
+}
+
+@media screen and (max-width:1050px) {
+    .card-header{
+        width: 240px;
+    }
+
+    .card {
+        width: 240px;
+        margin: 0.5%;
+    }
+
 }
 
 /* cards upto here */
@@ -350,18 +386,6 @@ body {
     grid-row: 1;
     grid-column: 2;
     text-align: center;
-}
-
-@media screen and (max-width:957px) {
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        margin-top: 30px;
-    }
-
 }
 
 .contact__connect {
