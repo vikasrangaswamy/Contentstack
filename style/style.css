@@ -16,10 +16,16 @@
     --heading-1:3rem;
     --heading-2:1.5rem;
     --paragraph:1.2rem;
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
 }
 
 body {
     background-color: var(--background-primary);
+}
+
+.scroll--padding-top{
+    scroll-margin-top: 10vh;
 }
 
 /* Cards starts here */
@@ -410,6 +416,7 @@ body {
     text-decoration: none;
     color: var(--text-primary);
     margin: 1% auto;
+    transition: font-size 0.3s ease;
 }
 
 .contact__menu-item:hover {
@@ -446,6 +453,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--background-primary);
+    transition: all 0.15s ease-in;
 }
 
 .contact__socials-icon:hover {
