@@ -14,16 +14,16 @@
             <img class="main-header__logo" src="assets/logo_wo_bg.png">
             <nav class="main-header__nav">
                 <ul class="main-header__links">
-                    <li><a class="main-header__link" href="#about">About</a></li>
-                    <li><a class="main-header__link" href="#story">Story</a></a></li>
-                    <li><a class="main-header__link" href="#team">Team</a></li>
+                    <li><a class="main-header__link" href="#about_start">About</a></li>
+                    <li><a class="main-header__link" href="#story_start">Story</a></a></li>
+                    <li><a class="main-header__link" href="#team_start">Team</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="banner">
+        <div id="about_start" class="banner">
             <div class="banner-container">
                 <div class="banner-intro-container">
-                    <div class="banner-logo"></div>
+                    <!-- <div class="banner-logo"></div> -->
                     <div class="banner-intro">
                         <p>
                             <span>Contentstack</span> is an API-based, headless
@@ -47,7 +47,7 @@
             <!-- Will try to add either card or symbol for the below sections -->
             <!-- The color scheme mentioned will be added here -->
             <!-- On-campus and off-campus stories -->
-            <div class="story">
+            <div id="story_start" class="story">
                 <p id="story__nav">How they recruit?</p>
                 <!-- off-campus -->
                 <div class="story__details">
@@ -66,23 +66,23 @@
                     </p>
                     <ul class="story__elements">
                         <li>
-                            <b>Vishvam</b> - My experience with Contentstack
-                            till now can be described using 3 words : welcoming,
-                            fun and purpose-driven
+                            <strong>Vishvam</strong> - My experience with
+                            Contentstack till now can be described using 3 words
+                            : welcoming, fun and purpose-driven
                         </li>
                         <li>
-                            <b>Soumik</b> - This Hackathon was a challenging and
-                            exciting one, every phase and execution gave me a
-                            different thrill to win.
+                            <strong>Soumik</strong> - This Hackathon was a
+                            challenging and exciting one, every phase and
+                            execution gave me a different thrill to win.
                         </li>
                         <li>
-                            <b>Faraaz</b> - A competitive and exciting building
-                            experience.
+                            <strong>Faraaz</strong> - A competitive and exciting
+                            building experience.
                         </li>
                         <li>
-                            <b>Vaibhav</b> - An incredibly rewarding experience
-                            that allowed me to develop a valuable solution in a
-                            short amount of time.
+                            <strong>Vaibhav</strong> - An incredibly rewarding
+                            experience that allowed me to develop a valuable
+                            solution in a short amount of time.
                         </li>
                     </ul>
                     <img
@@ -90,24 +90,101 @@
                         alt="Hackathon details"
                         class="hackathon__image"
                     />
+                    <ol class="story__elements">
+                        <li>
+                            <strong>Quiz:</strong> It was on the basics of
+                            computer science. It had 25 questions and 1 minute
+                            was given to solve each one of them.
+                        </li>
+                        <li>
+                            <strong>Video Pitch:</strong> In this round we have
+                            to submit a 5 minute long video where we presented
+                            our idea w.r.t problem which we selected.
+                        </li>
+                        <li>
+                            <strong>Prototype submission:</strong> getting
+                            shortlisted from the previous round we worked on the
+                            proposed solution and developed applications.
+                        </li>
+                    </ol>
+                </div>
+                <!-- on-campus -->
+                
+                <div class="on-campus__story__details">
+                    <p class="on-campus__story__header">On-Campus</p>
+                    <p class="on-campus__intro">
+                        Contentstack also recruits young talent by organizing On-Campus drives.
+                        The recruitment process started by briefing all the candidates about the organization 
+                        and further process. The process was divided into four stages namely Aptitude Round, 
+                        Technical Round, Managerial  Round and HR Round. Interviews were more like an elaborate 
+                        discussion about how to solve the given problem and optimizing the given solution and finding
+                        whether we are eager to learn new things. Candidates who cleared all the three rounds were 
+                        called for the HR Round which was to know more about us and our background.
+                    </p>
+
+                    <div class="on-campus__card__content">
+                        <div class="on-campus__card__column">
+                            <p>Aptitude Round:</p>
+                            
+                                <li>4 Different Sets</li>
+                                <li>40 MCQ</li>
+                                <li>Aptitude</li>
+                                <li>Data and Algorithm</li>
+                                <li>Web Development</li>
+                                <li>DBMS</li>
+                            
+                        </div>
+                        <div class="on-campus__card__column">
+                            <p>Technical Round:</p>
+                            
+                                <li>Resume Driven</li>
+                                <li>Technical Soundness</li>
+                                <li>Problem Solving Skills</li>
+                                <li>Puzzles Solving</li>
+                            
+                        </div>
+                        <div class="on-campus__card__column">
+                            <p>Managerial Ronund:</p>
+                            
+                                <li>Resume Driven Beginning</li>
+                                <li>Web Development</li>
+                                <li>Cloud</li>
+                                <li>Scenario Based Question</li>
+                                <li>Personality Based Questio</li>
+                                <li>Assessing Learning approach</li>
+                            
+                        </div>
+                        <div class="on-campus__card__column">
+                            <p>HR Round:</p>
+                            
+                                <li>SWOT</li>
+                                <li>Family Background</li>
+                                <li>Academic Background</li>
+                                <li>Current Opportunities in Hand</li>
+                                
+                            
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="team">
+            <div id="team_start" class="team">
                 <br />
-                <h1>WELCOME</h1>
-                
-                <h2>Interns 2023</h2>
-                <br />
+                <hr>
+                <div class="team-heading">
+                    <h1>WELCOME</h1>
+                    <h2>Interns 2023</h2>
+                    <br />
+                </div>
                 <div class="cards">
                     <div class="card">
                         <div class="card-header"></div>
-                        <div class="card-img"></div>
-                        <h3>Sanika Pareek</h3>
+                        <div class="card-img">
+                            <img src="assets/images/Vibhuti.jpg">
+                        </div>
+                        <h3>Vibhuti Bajaj</h3>
                         <div class="card-content">
-                            <p>
-                                I'm Sanika Pareek from Pune currently pursing my
-                                graduation degree in Computer Engineering from
-                                MIT Academy of Engineering.
+                            <p>I'm currently pursuing B.Tech degree in Computer Science Engineering from JSS Academy of Technical Education, Bangalore. 
                             </p>
                         </div>
                         <a href="#" class="card-link">Know More</a>
@@ -118,13 +195,12 @@
                     </div>
                     <div class="card">
                         <div class="card-header"></div>
-                        <div class="card-img"></div>
-                        <h3>Sanika Pareek</h3>
+                        <div class="card-img">
+                            <img src="https://avatars.githubusercontent.com/u/64711780?v=4">
+                        </div>
+                        <h3>Varun Athreya</h3>
                         <div class="card-content">
-                            <p>
-                                I'm Sanika Pareek from Pune currently pursing my
-                                graduation degree in Computer Engineering from
-                                MIT Academy of Engineering.
+                            <p>I'm Varun S Athreya from Bengaluru currently pursing my B.E in Computer Engineering from JSS Academy of Technical Education
                             </p>
                         </div>
                         <a href="#" class="card-link">Know More</a>
@@ -135,14 +211,12 @@
                     </div>
                     <div class="card">
                         <div class="card-header"></div>
-                        <div class="card-img"></div>
-                        <h3>Sanika Pareek</h3>
+                        <div class="card-img">
+                            <img src="assets/images/Priya.jpeg">
+                        </div>
+                        <h3>Priya NB</h3>
                         <div class="card-content">
-                            <p>
-                                I'm Sanika Pareek from Pune currently pursing my
-                                graduation degree in Computer Engineering from
-                                MIT Academy of Engineering.
-                            </p>
+                            <p>I'm PRIYA NB from Mysuru. Currently pursuing my computer science and engineering from Jss science and Technology university Mysuru.</p>
                         </div>
                         <a href="#" class="card-link">Know More</a>
                         <div class="card-icons">
@@ -152,13 +226,12 @@
                     </div>
                     <div class="card">
                         <div class="card-header"></div>
-                        <div class="card-img"></div>
-                        <h3>Sanika Pareek</h3>
+                        <div class="card-img">
+                            <img src="assets/images/vikas.jpg">
+                        </div>
+                        <h3>Rangaswamy Vikas</h3>
                         <div class="card-content">
-                            <p>
-                                I'm Sanika Pareek from Pune currently pursing my
-                                graduation degree in Computer Engineering from
-                                MIT Academy of Engineering.
+                            <p>I am Vikas Rangaswamy, currently pursuing my B. Tech degree in Computer Science and Engineering from JSS Science and Technology University, Mysore.
                             </p>
                         </div>
                         <a href="#" class="card-link">Know More</a>
@@ -169,92 +242,17 @@
                     </div>
                 </div>
             </div>
-
-            <!-- viraj's section -->
-            <div class="cards">
-                <div class="card">
-                    <div class="card-header"></div>
-                    <div class="card-img"></div>
-                    <h3>Viraj Yadav</h3>
-                    <div class="card-content">
-                        <p>
-                            I am Viraj Yadav, currently pursuing B.Tech degree
-                            in Computer Engineering from MIT Academy of
-                            Engineering, Pune.
-                        </p>
-                    </div>
-                    <a href="#" class="card-link">Know More </a>
-                    <div class="card-icons">
-                        <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header"></div>
-                    <div class="card-img"></div>
-                    <h3>Viraj Yadav</h3>
-                    <div class="card-content">
-                        <p>
-                            I am Viraj Yadav, currently pursuing B.Tech degree
-                            in Computer Engineering from MIT Academy of
-                            Engineering, Pune.
-                        </p>
-                    </div>
-                    <a href="#" class="card-link">Know More </a>
-                    <div class="card-icons">
-                        <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header"></div>
-                    <div class="card-img"></div>
-                    <h3>Viraj Yadav</h3>
-                    <div class="card-content">
-                        <p>
-                            I am Viraj Yadav, currently pursuing B.Tech degree
-                            in Computer Engineering from MIT Academy of
-                            Engineering, Pune.
-                        </p>
-                    </div>
-                    <a href="#" class="card-link">Know More </a>
-                    <div class="card-icons">
-                        <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header"></div>
-                    <div class="card-img"></div>
-                    <h3>Viraj Yadav</h3>
-                    <div class="card-content">
-                        <p>
-                            I am Viraj Yadav, currently pursuing B.Tech degree
-                            in Computer Engineering from MIT Academy of
-                            Engineering, Pune.
-                        </p>
-                    </div>
-                    <a href="#" class="card-link">Know More </a>
-                    <div class="card-icons">
-                        <a href="#"><i class="fa fa-github"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
 
         <!-- viraj's section -->
         <div class="cards">
         <div class="card">
             <div class="card-header"></div>
-            <div class="card-img"></div>
-            <h3>Viraj Yadav</h3>
+            <div class="card-img">
+                <img src="assets/images/deepak.png">
+            </div>
+            <h3>Deepak Chaturvedi</h3>
             <div class="card-content">
-                <p>I am Viraj Yadav, currently pursuing B.Tech degree in Computer Engineering from MIT Academy of Engineering, Pune.</p>
+                <p>I am Deepak Chaturvedi from Ayodhya, currently pursuing my B.Tech degree in Computer science and engineering from KIET Group of Institutions, Ghaziabad.</p>
             </div>
             <a href="#" class="card-link">Know More </a>
             <div class="card-icons">
@@ -265,10 +263,13 @@
 
         <div class="card">
             <div class="card-header"></div>
-            <div class="card-img"></div>
-            <h3>Viraj Yadav</h3>
+            <div class="card-img">
+                <img src="assets/images/Rakshitha.jpg">
+            </div>
+            <h3>Rakshitha S</h3>
             <div class="card-content">
-                <p>I am Viraj Yadav, currently pursuing B.Tech degree in Computer Engineering from MIT Academy of Engineering, Pune.</p>
+                <p>I am Rakshitha S joined as an intern here.I’m excited to work with you all to solve our clients’ biggest challenges!
+                </p>
             </div>
             <a href="#" class="card-link">Know More </a>
             <div class="card-icons">
@@ -279,10 +280,12 @@
 
         <div class="card">
             <div class="card-header"></div>
-            <div class="card-img"></div>
-            <h3>Viraj Yadav</h3>
+            <div class="card-img">
+                <img src="assets/images/Kashmeera.jpg">
+            </div>
+            <h3>Kashmeera Raychoty</h3>
             <div class="card-content">
-                <p>I am Viraj Yadav, currently pursuing B.Tech degree in Computer Engineering from MIT Academy of Engineering, Pune.</p>
+                <p>I’m Kashmeera. I am a creative person and like to explore new things.</p>
             </div>
             <a href="#" class="card-link">Know More </a>
             <div class="card-icons">
@@ -293,10 +296,16 @@
 
         <div class="card">
             <div class="card-header"></div>
-            <div class="card-img"></div>
-            <h3>Viraj Yadav</h3>
+            <div class="card-img">
+                <img src="assets/images/Harshitha D.png">
+            </div>
+            <h3>Harshitha D</h3>
             <div class="card-content">
-                <p>I am Viraj Yadav, currently pursuing B.Tech degree in Computer Engineering from MIT Academy of Engineering, Pune.</p>
+                <p>
+                    I'm from Bangalore and currently pursuing 
+                    my Bachelor's in Information Science & Engineering at 
+                    GSSS Institute of Engineering and Technology, Mysuru.
+                </p>
             </div>
             <a href="#" class="card-link">Know More </a>
             <div class="card-icons">
@@ -310,10 +319,12 @@
     <div class="cards">
         <div class="card">
             <div class="card-header"></div>
-            <div class="card-img"></div>
-            <h3>Vibhuti Bajaj</h3>
+            <div class="card-img">
+                <img src="assets/images/sanika.jpeg">
+            </div>
+            <h3>Sanika Pareek</h3>
             <div class="card-content">
-                <p>I'm Vibhuti Bajaj. I'm currently pursuing B.Tech degree in Computer Science Engineering from JSS Academy of Technical Education, Bangalore.</p>
+                <p>I'm Sanika Pareek from Pune currently pursing my graduation degree in Computer Engineering from MIT Academy of Engineering.</p>
             </div>
             <a href="#" class="card-link">Know More </a>
             <div class="card-icons">
@@ -324,10 +335,12 @@
 
         <div class="card">
             <div class="card-header"></div>
-            <div class="card-img"></div>
-            <h3>Vibhuti Bajaj</h3>
+            <div class="card-img">
+                <img src="assets/images/Raj.png">
+            </div>
+            <h3>Raj Pandey</h3>
             <div class="card-content">
-                <p>I'm Vibhuti Bajaj. I'm currently pursuing B.Tech degree in Computer Science Engineering from JSS Academy of Technical Education, Bangalore.</p>
+                <p>I'm Raj Pandey from Navi Mumbai. I'm a final Year UG at MIT Academy Of Engineering Pune.</p>
             </div>
             <a href="#" class="card-link">Know More </a>
             <div class="card-icons">
@@ -338,10 +351,12 @@
 
         <div class="card">
             <div class="card-header"></div>
-            <div class="card-img"></div>
-            <h3>Vibhuti Bajaj</h3>
+            <div class="card-img">
+                <img src="assets/images/Viraj.jpg">
+            </div>
+            <h3>Viraj Yadav</h3>
             <div class="card-content">
-                <p>I'm Vibhuti Bajaj. I'm currently pursuing B.Tech degree in Computer Science Engineering from JSS Academy of Technical Education, Bangalore.</p>
+                <p>I am Viraj Yadav, currently pursuing B.Tech degree in Computer Engineering from MIT Academy of Engineering, Pune.</p>
             </div>
             <a href="#" class="card-link">Know More </a>
             <div class="card-icons">
@@ -352,16 +367,21 @@
 
         <div class="card">
             <div class="card-header"></div>
-            <div class="card-img"></div>
-            <h3>Vibhuti Bajaj</h3>
-            <div class="card-content">
-                <p>I'm Vibhuti Bajaj. I'm currently pursuing B.Tech degree in Computer Science Engineering from JSS Academy of Technical Education, Bangalore.</p>
+            <div class="card-img">
+                <img src="assets/images/faraaz.webp">
             </div>
+            <h3>Faraaz Biyabani</h3>
+            <div class="card-content">
+                <p>I am always curious about technology and I love writing code to create purposeful things.</p>
+            </div>
+        
             <a href="#" class="card-link">Know More </a>
             <div class="card-icons">
                 <a href="#"><i class="fa fa-github"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
-            </div>          
+            </div>   
+            
+                   
         </div>
     </div>
 
@@ -369,12 +389,12 @@
     <div class="cards">
         <div class="card">
             <div class="card-header"></div>
-            <div class="card-img"></div>
-            <h3>Harshitha D</h3>
+            <div class="card-img">
+                <img src="assets/images/Vaibhav.png">
+            </div>
+            <h3>Vaibhav Patil</h3>
             <div class="card-content">
-                <p>I'm Harshitha D from Bangalore. I'm currently pursuing 
-                    my Bachelor's in Information Science & Engineering at 
-                    GSSS Institute of Engineering and Technology for Women, Mysuru.
+                <p> I'm a true technophile and currently pursuing my B.Tech degree in Computer Engineering from MIT Academy of Engineering.
                 </p>
             </div>
             <a href="#" class="card-link">Know More </a>
@@ -386,12 +406,12 @@
 
         <div class="card">
             <div class="card-header"></div>
-            <div class="card-img"></div>
-            <h3>Harshitha D</h3>
+            <div class="card-img">
+                <img src="assets/images/Soumik.png">
+            </div>
+            <h3>Soumik Paul</h3>
             <div class="card-content">
-                <p>I'm Harshitha D from Bangalore. I'm currently pursuing 
-                    my Bachelor's in Information Science & Engineering at 
-                    GSSS Institute of Engineering and Technology for Women, Mysuru.
+                <p>I am Soumik Paul, currently pursuing B.E. I.T. and a 2x icpc regionalist holder.
                 </p>
             </div>
             <a href="#" class="card-link">Know More </a>
@@ -401,65 +421,46 @@
             </div>          
         </div>
 
-        
+        </div>
     </div>
 
     </main>
-    <footer>
-        <div class="contact red-border">
+    <footer class="footer">
+        <div class="contact">
 
-            <div class="contact__logo-address blue-border">
+            <div class="contact__logo-address">
                 <img src="./assets/logo_wo_bg.png" alt="logo" class="red-border contact__logo">
                 <div class="contact__address">
-                    <h2 class="contact__address-title">Address</h2>
+                    <div class="contact__address-title">Address</div>
                     <p class="contact__address-para">123-456-7890
                         123 Anywhere St., Any City, ST 12345</p>
                 </div>
 
             </div>
 
-            <div class="contact__sitemap red-border">
-                <div class="contact__sitemap-title">Sitemap</div>
+            <div class="contact__sitemap">
+                <div class="contact--heading-text">Sitemap</div>
                 <div class="contact__sitemap-menu">
-                    <a href="#">Introduction</a>
-                    <a href="#">Story</a>
-                    <a href="#">Team</a>
-        <footer class="footer">
-            <div class="contact">
-    
-                <div class="contact__logo-address">
-                    <img src="./assets/logo_wo_bg.png" alt="logo" class="red-border contact__logo">
-                    <div class="contact__address">
-                        <div class="contact__address-title">Address</div>
-                        <p class="contact__address-para">123-456-7890
-                            123 Anywhere St., Any City, ST 12345</p>
-                    </div>
-    
+                    <a class="contact__menu-item" href="#about_start">About</a>
+                    <a class="contact__menu-item" href="#story_start">Story</a>
+                    <a class="contact__menu-item" href="#team_start">Team</a>
                 </div>
-    
-                <div class="contact__sitemap">
-                    <div class="contact--heading-text">Sitemap</div>
-                    <div class="contact__sitemap-menu">
-                        <a class="contact__menu-item" href="#">Introduction</a>
-                        <a class="contact__menu-item" href="#">Story</a>
-                        <a class="contact__menu-item" href="#">Team</a>
-                    </div>
-                </div>
-    
-                <div class="contact__connect">
-                    <div class="contact--heading-text">Connect with us</div>
-                    <div class="contact__email">
-                        <img class="contact__email-logo" src="./assets/email-logo.png" alt="email-logo">
-                        <div class="contact__emai-address">dummy.mail@contenstackerns.com</div>
-                    </div>
-                    <div class="contact__socials">
-                        <div class="contact__socials-icon"><i class="fa-2xl fa-brands fa-linkedin-in"></i></div>
-                        <div class="contact__socials-icon"><i class="fa-2xl fa-brands fa-github"></i></div>
-                        <div class="contact__socials-icon"><i class="fa-2xl fa-brands fa-twitter"></i></div>
-                    </div>
-                </div>
-    
             </div>
-        </footer>
+
+            <div class="contact__connect">
+                <div class="contact--heading-text">Connect with us</div>
+                <div class="contact__email">
+                    <img class="contact__email-logo" src="./assets/email-logo.png" alt="email-logo">
+                    <div class="contact__emai-address">dummy.mail@contenstackerns.com</div>
+                </div>
+                <div class="contact__socials">
+                    <div class="contact__socials-icon"><i class="fa-2xl fa-brands fa-linkedin-in"></i></div>
+                    <div class="contact__socials-icon"><i class="fa-2xl fa-brands fa-github"></i></div>
+                    <div class="contact__socials-icon"><i class="fa-2xl fa-brands fa-twitter"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </footer>    
     </body>
 </html>
