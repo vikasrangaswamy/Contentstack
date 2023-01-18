@@ -13,6 +13,7 @@
     --text-invert: #ffffff;
     --accent-primary: #f46524;
     --accent-secondary: #28324a;
+   
 }
 
 body {
@@ -22,6 +23,26 @@ body {
 /* Cards starts here */
 .team {
     text-align: center;
+}
+.team h1{
+  background-color: #e9f3f5;
+  padding: 20px;
+  margin: 0;
+  font-size: 3rem;
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 0.5px black;
+
+}
+.team h2{
+  background-color: #e9f3f5;
+  padding-bottom: 20px;
+  margin: 0;
+  color: black;
+  font-weight: 500;
+  font-size: 2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .cards {
     display: flex;
