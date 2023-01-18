@@ -371,6 +371,8 @@ body {
 /* footer-styling */
 .footer {
     margin-top: 2%;
+    z-index: 10;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, .3);
 }
 
 .contact {
@@ -432,6 +434,7 @@ body {
 .contact__email {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .contact__email-logo {
@@ -476,8 +479,7 @@ body {
        width: 80vw;
     }
     .contact--break-word{
-        word-wrap: break-word;
-        width: 100%;
+        word-break: break-all;
     }
     .contact__logo-address {
         padding-bottom: 2%;
