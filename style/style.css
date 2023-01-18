@@ -138,11 +138,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-left: 7vw;
 }
 
 .intro--part {
     margin: 30px;
     margin-right: 60px;
+    margin-left: 0;
 }
 
 .left--banner--part span{
