@@ -352,6 +352,14 @@ body {
     text-align: justify;
 }
 
+.on-campus__graph{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    zoom: 50%;
+    margin-bottom: 50px;
+    
+}
 .on-campus__card__content {
     display: flex;
     flex-wrap: wrap; 
