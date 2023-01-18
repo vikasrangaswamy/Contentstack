@@ -19,6 +19,10 @@ body {
     background-color: var(--background-primary);
 }
 
+.scroll--padding-top{
+    scroll-margin-top: 10vh;
+}
+
 /* Cards starts here */
 .team {
     text-align: center;
