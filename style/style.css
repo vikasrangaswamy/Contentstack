@@ -416,6 +416,7 @@ body {
     text-decoration: none;
     color: var(--text-primary);
     margin: 1% auto;
+    transition: font-size 0.3s ease;
 }
 
 .contact__menu-item:hover {
@@ -452,6 +453,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--background-primary);
+    transition: all 0.15s ease-in;
 }
 
 .contact__socials-icon:hover {
