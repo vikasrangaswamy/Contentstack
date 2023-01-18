@@ -140,8 +140,9 @@ body {
     justify-content: space-evenly;
 }
 
-.intro--part, .subintro--part {
+.intro--part {
     margin: 30px;
+    margin-right: 60px;
 }
 
 .left--banner--part span{
