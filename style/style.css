@@ -13,6 +13,9 @@
     --text-invert: #ffffff;
     --accent-primary: #f46524;
     --accent-secondary: #28324a;
+    --heading-1:3rem;
+    --heading-2:1.5rem;
+    --paragraph:1.2rem;
 }
 
 body {
@@ -37,10 +40,12 @@ body {
 
 .card {
     width: 250px;
+    height: 430px;
     background-color: #f3f8f9;
     text-align: center;
     padding-bottom: 20px;
     border-radius: 20px;
+    margin:1%;
 }
 
 .card-header {
@@ -62,8 +67,15 @@ body {
     border: 6px solid white;
 }
 
+.card-img img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
 .card-content {
     padding: 20px;
+    height: 150px;
     text-align: left;
 }
 
@@ -72,9 +84,36 @@ body {
 }
 
 .card-icons {
-    margin: 10px;
-    color: rgb(106, 12, 247);
+    margin-top: 10px;
     font-size: 1.7rem;
+}
+
+.card-icons i{
+    color: rgb(106, 12, 247);
+}
+
+@media screen and (max-width:957px) {
+    .cards {
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    .card {
+        margin: 30px;
+    }
+
+}
+
+@media screen and (max-width:1050px) {
+    .card-header{
+        width: 240px;
+    }
+
+    .card {
+        width: 240px;
+        margin: 0.5%;
+    }
+
 }
 
 /* cards upto here */
@@ -191,6 +230,8 @@ body {
 
 /* story-styling */
 
+/* off-campus */
+
 .story {
     display: block;
     text-align: center;
@@ -274,6 +315,50 @@ body {
     width: 50vw;
 }
 
+/* on-campus */
+
+.on-campus__story__header {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.on-campus__story__details {
+    text-align: start;
+    margin: 1rem 7vw;
+}
+
+.on-campus__intro {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.on-campus__card__content {
+    display: flex;
+    flex-wrap: wrap; 
+    font-size: 1.2rem;
+    justify-content: space-around;
+    
+    
+  }
+  .on-campus__card__content p{
+    font-weight: bolder;
+    margin: 1rem 0;
+  }
+  
+  .on-campus__card__column {
+    flex-basis: 23%;
+    /* border: #28324a solid; */
+    /* margin-left: 2%; */
+
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .on-campus__card__column {
+        flex-basis: 50%;
+        margin-left: 2%;
+      }
+  }
+
 /* story-styling */
 
 /* footer-styling */
@@ -308,18 +393,6 @@ body {
     grid-row: 1;
     grid-column: 2;
     text-align: center;
-}
-
-@media screen and (max-width:957px) {
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        margin-top: 30px;
-    }
-
 }
 
 .contact__connect {
