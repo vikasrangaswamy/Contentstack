@@ -339,6 +339,7 @@ body {
 .on-campus__story__header {
     font-size: 2rem;
     font-weight: bolder;
+    color: var(--accent-primary);
 }
 
 .on-campus__story__details {
@@ -384,6 +385,13 @@ body {
         flex-basis: 50%;
         margin-left: 2%;
       }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .on-campus__graph{
+        zoom: 30%;
+        max-width: 100%;
+    }
   }
 
 /* story-styling */
