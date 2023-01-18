@@ -336,7 +336,8 @@ body {
 
 .on-campus__intro {
     margin: 1rem 0;
-    font-size: 1.2rem;
+    font-size: var(--paragraph);
+    text-align: justify;
 }
 
 .on-campus__card__content {
@@ -344,9 +345,8 @@ body {
     flex-wrap: wrap; 
     font-size: 1.2rem;
     justify-content: space-around;
-    
-    
-  }
+    }
+
   .on-campus__card__content p{
     font-weight: bolder;
     margin: 1rem 0;
