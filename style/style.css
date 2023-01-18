@@ -23,6 +23,11 @@
 
 body {
     background-color: var(--background-primary);
+    font-family: 'Roboto', sans-serif;
+}
+
+.scroll--padding-top{
+    scroll-margin-top: 10vh;
 }
 
 .scroll--padding-top {
@@ -33,7 +38,14 @@ body {
 .team {
     text-align: center;
 }
-
+.team-heading h1{
+    font-size: 2rem;
+    margin-top: 30px;
+}
+.team-heading h2{
+    font-size: 4rem;
+    color: var(--accent-primary);
+}
 .cards {
     display: flex;
     justify-content: space-around;
@@ -375,7 +387,7 @@ body {
 .footer {
     margin-top: 2%;
     z-index: 10;
-    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 4.5px -1px rgba(0, 0, 0, 6.5);
 }
 
 .contact {
