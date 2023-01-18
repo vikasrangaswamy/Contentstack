@@ -457,17 +457,23 @@ body {
 }
 
 .contact__socials-icon:hover {
-    width: 57px;
-    height: 57px;
+    z-index: 10;
     border: 1px solid var(--accent-primary);
     box-shadow: 0 0 8px 2px var(--accent-primary);
 }
 
 @media screen and (max-width:957px) {
     .contact {
-        grid-template-columns: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
     }
-
+    .contact__logo{
+       width: 80vw;
+    }
+    .contact--break-word{
+        word-wrap: break-word;
+        width: 100%;
+    }
     .contact__logo-address {
         padding-bottom: 2%;
         border-bottom: 2px solid var(--background-primary);
