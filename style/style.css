@@ -438,7 +438,7 @@ body {
 .footer {
     margin-top: 2%;
     z-index: 10;
-    box-shadow: 0 1px 4.5px -1px rgba(0, 0, 0, 6.5);
+    box-shadow: 0 1px 4.5px -1px rgba(0, 0, 0, 0.648);
 }
 
 .contact {
