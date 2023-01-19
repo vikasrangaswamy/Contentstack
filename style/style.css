@@ -26,14 +26,31 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.scroll--padding-top{
+#about_start{
     scroll-margin-top: 10vh;
 }
 
-.scroll--padding-top {
+#story_start{
     scroll-margin-top: 10vh;
 }
 
+#team_start{
+    scroll-margin-top: 6vh;
+}
+
+@media screen and (max-width: 768px) {
+    #about_start{
+        scroll-margin-top: 12vh;
+    }
+    
+    #story_start{
+        scroll-margin-top: 14vh;
+    }
+    
+    #team_start{
+        scroll-margin-top: 8vh;
+    }
+}
 /* Cards starts here */
 .team {
     text-align: center;
@@ -421,7 +438,7 @@ body {
 .footer {
     margin-top: 2%;
     z-index: 10;
-    box-shadow: 0 1px 4.5px -1px rgba(0, 0, 0, 6.5);
+    box-shadow: 0 1px 4.5px -1px rgba(0, 0, 0, 0.648);
 }
 
 .contact {
@@ -513,6 +530,7 @@ body {
 }
 
 .contact__socials-icon:hover {
+    cursor: pointer;
     z-index: 10;
     border: 1px solid var(--accent-primary);
     box-shadow: 0 0 8px 2px var(--accent-primary);
