@@ -343,6 +343,7 @@ body {
 .story__header {
     font-size: var(--heading-2);
     font-weight: bolder;
+    color: var(--accent-primary);
 }
 
 .hackathon__details {
@@ -377,7 +378,7 @@ body {
 /* on-campus */
 
 .on-campus__story__header {
-    font-size: 2rem;
+    font-size: var(--heading-2);
     font-weight: bolder;
     color: var(--accent-primary);
 }
