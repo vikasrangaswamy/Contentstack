@@ -286,6 +286,7 @@ body {
 
 .main-header__link:hover {
     color: #ba3b00;
+    text-decoration: underline;
 }
 
 /* story-styling */
@@ -426,7 +427,7 @@ body {
     }
 }
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 500px) {
     .on-campus__graph{
         zoom: 30%;
         max-width: 100%;
