@@ -118,16 +118,6 @@ body {
     text-decoration: none;
 }
 
-.card-icons {
-    display: none;
-    margin-top: 10px;
-    font-size: 1.7rem;
-}
-
-.card-icons i{
-    color: rgb(106, 12, 247);
-}
-
 @media screen and (max-width:957px) {
     .card-icons,.card-content,.card-header{
         display: none;
